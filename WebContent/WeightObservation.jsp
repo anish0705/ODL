@@ -23,7 +23,7 @@
 <div style="color:#FF0000" id='weight_form_obv_ampm_errorloc' ></div>
 
 
-<form id="f2" name="weight_form" action="" method="post">
+<form id="f2" name="weight_form" action="AddWeightObservations.jsp" method="post">
 
 Weight <input type="text" name="weight_amt"/>(in pounds)<br/><br/>
 

@@ -11,9 +11,10 @@
 <br/>
 <center>
 	<a href="AssignPatientClass.jsp">Assign Patients to Classes! </a><br/>
-	<a href="">Add a new observation type </a><br/>
-	<a href="">Add association between observation type and illness </a><br/>
-	<a href="">View Patients </a>
+	<a href="NewObservationTypeHealthProf.jsp">Add a new observation type </a><br/>
+	<a href="AssignTypeClass.jsp">Add association between observation type and illness </a><br/>
+	<a href="ViewPatientMain.jsp">View Patients </a><br/>
+	<a href="ViewAggregatedReportsInput.jsp">View Aggregated Reports</a>
 	
 	</center>
 </body>

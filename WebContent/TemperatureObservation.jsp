@@ -24,7 +24,7 @@
 
 
 
-<form id="f2" name="temp_form" action="" method="post">
+<form id="f2" name="temp_form" action="AddTemperatureObservation.jsp" method="post">
 
 Temperature <input type="text" name="temp_amt"/>(in Fahrenheit)<br/><br/>
 

@@ -30,29 +30,24 @@
 		rs.close();
 		// Verifying password of user
 		Statement st2 = con.createStatement();
-		rs = st2.executeQuery("select p_password,pname,pc_id,pid from patients where patientid='"+patient_id+"'");
+		rs = st2.executeQuery("select p_password,pname,pid from patients where patientid='"+patient_id+"'");
 		while(rs.next())
 		{
 			password = rs.getString(1);
 			patient_name = rs.getString(2);
-			pc_id = rs.getInt(3);
-			pid = rs.getInt(4);
+			
+			pid = rs.getInt(3);
 		}
 		if(user_password.equals(password))
 		{
 			rs.close();
 			// Correct password
 			// first getting the patient class name from patient class table
-			Statement st3 = con.createStatement();
-			rs = st3.executeQuery("select pc_name from patientclass where pc_id="+pc_id+"");
-			while(rs.next())
-			{
-				patient_class = rs.getString(1);
-			}
+			
 			rs.close();
 			session.setAttribute("pid",pid);
 			session.setAttribute("patient_name",patient_name);
-			session.setAttribute("patient_class",patient_class);
+			
 			response.sendRedirect("PatientHome.jsp");
 		}
 		else

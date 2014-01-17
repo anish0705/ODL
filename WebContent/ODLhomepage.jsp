@@ -46,7 +46,8 @@ response.sendRedirect("PatientCannotLogin.jsp");
      <br/>
      <br/>
     New Patient? <a href="PatientRegistration.jsp">Sign Up</a>
-
+   <br/>
+   <a href="ForgetPassword.jsp">Forgot Password?</a>
 </form>
 
 <script type="text/javascript">

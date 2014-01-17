@@ -47,10 +47,10 @@
 				//out.println(pc_id+""+pid);
 				st4.executeUpdate("insert into patient_belongs_to_class values("+pid+","+pc_id+")");
 				// Removing patient from general if he has been assigned to another class
-				Statement st5 = con.createStatement();
-				ResultSet rs4 = st5.executeQuery("select * from patient_belongs_to_class where pid="+pid+" AND pc_id=5");
+				//Statement st5 = con.createStatement();
+				//ResultSet rs4 = st5.executeQuery("select * from patient_belongs_to_class where pid="+pid+" AND pc_id=5");
 				// checking if already removed from general
-				if(rs4.next() == true)
+				/* if(rs4.next() == true)
 				{
 					//Remove him
 					rs4.close();
@@ -62,6 +62,7 @@
 					// Already removed
 					rs4.close();
 				}
+				 */
 				response.sendRedirect("AssignPatientClass.jsp?message=Patient Successfully added");
 				
 			}

@@ -7,12 +7,16 @@
 <title>welcome to odl</title>
 </head>
 <body>
+<center>
 	<table>
 	
 	<tr>
 		<td><a href="ODLhomepage.jsp">Patients Please click here</a></td>
-		<td><a href="ODLhomepage2.jsp">Health Professionals please click here</a></td>
+		
 	</tr>	
+	<tr>
+	<td><a href="ODLhomepage2.jsp">Health Professionals please click here</a></td></tr>
 	</table>
+	</center>
 </body>
 </html>

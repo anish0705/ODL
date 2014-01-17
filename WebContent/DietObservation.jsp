@@ -29,7 +29,7 @@
 
 <h2>Enter the amount and quantity consumed:</h2>
 
-<form id="f1" name="diet_form" action="" method="post">
+<form id="f1" name="diet_form" action="AddDietObservation.jsp" method="post">
 
 Item consumed: <input type="text" name="diet_item"/><br/><br/>
 
@@ -64,7 +64,7 @@ Time of observation:<input type="text" name="obv_hr" size="4" />
 
 <br/>
 <br/>
-<button name="add_another_obv" onclick="">Add another diet observation</button>
+
 <br/>
 <br/>
 

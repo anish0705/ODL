@@ -11,6 +11,7 @@
 		session.removeAttribute("pid");
 		session.removeAttribute("patient_name");
 		session.removeAttribute("patient_class");
+		session.removeAttribute("flag");
 		response.sendRedirect("ODLhomepage.jsp");
 	
 	 %>

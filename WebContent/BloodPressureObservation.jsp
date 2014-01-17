@@ -24,7 +24,7 @@
 <div style="color:#FF0000" id='bp_form_obv_ampm_errorloc' ></div>
 
 
-<form id="f2" name="bp_form" action="" method="post">
+<form id="f2" name="bp_form" action="AddBpObservation.jsp" method="post">
 
 Systolic <input type="text" name="bp_sys"/><br/><br/>
 Diastolic <input type="text" name="bp_dia"/><br/><br/>

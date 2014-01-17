@@ -25,7 +25,7 @@
 
 
 
-<form id="f2" name="p_form" action="" method="post">
+<form id="f2" name="p_form" action="AddPainObservation.jsp" method="post">
 
 Pain Scale:  <select name="p_amt">
 

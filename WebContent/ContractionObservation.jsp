@@ -24,7 +24,7 @@
 
 
 
-<form id="f2" name="c_form" action="" method="post">
+<form id="f2" name="c_form" action="AddContractionObservation.jsp" method="post">
 
 Frequency: <input type="text" name="c_frequency"/>(per half hour)<br/><br/>
 

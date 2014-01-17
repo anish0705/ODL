@@ -22,7 +22,7 @@
 <div style="color:#FF0000" id='os_form_obv_sec_errorloc' ></div>
 <div style="color:#FF0000" id='os_form_obv_ampm_errorloc' ></div>
 
-<form id="f2" name="os_form" action="" method="post">
+<form id="f2" name="os_form" action="AddOxygenSaturationObservation.jsp" method="post">
 
 Amount: <input type="text" name="os_amt"/>( in %)<br/><br/>
 

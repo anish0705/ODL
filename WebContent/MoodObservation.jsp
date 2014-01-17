@@ -23,12 +23,12 @@
 <div style="color:#FF0000" id='m_form_obv_ampm_errorloc' ></div>
 
 
-<form id="f2" name="m_form" action="" method="post">
+<form id="f2" name="m_form" action="AddMoodObservation.jsp" method="post">
 
- <input type="radio" name="m_value"> Happy
+ <input type="radio" name="m_value" value="happy"> Happy
  <br/><br/>
-  <input type="radio" name="m_value"> Neutral<br/><br/>
-  <input type="radio" name="m_value"> Sad<br/><br/>
+  <input type="radio" name="m_value" value="neutral"> Neutral<br/><br/>
+  <input type="radio" name="m_value" value="sad"> Sad<br/><br/>
  
  Date of observation: <input type="text" name="obv_day" size="4" />
 		<select name="obv_month">

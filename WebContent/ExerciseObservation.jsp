@@ -24,7 +24,7 @@
 <div style="color:#FF0000" id='ex_form_obv_ampm_errorloc' ></div>
 
 
-<form id="f2" name="ex_form" action="" method="post">
+<form id="f2" name="ex_form" action="AddExerciseObservation.jsp" method="post">
 
 Exercise type:<input type="text" name="ex_kind"/><br/><br/>
 

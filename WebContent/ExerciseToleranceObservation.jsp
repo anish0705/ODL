@@ -24,7 +24,7 @@
 
 
 
-<form id="f2" name="et_form" action="" method="post">
+<form id="f2" name="et_form" action="AddExerciseToleranceObservation.jsp" method="post">
 
 Number of steps: <input type="text" name="et_num"/><br/><br/>
 Date of observation: <input type="text" name="obv_day" size="4" />
